@@ -1,16 +1,14 @@
 #Also ich habe einen Taschenrechner programmiert der + - * / ausführen kann und am ende alle ergebnisse plus aufgabe ausgebe
 #erkläre dem user das es sich um einen taschenrechner handelt
 print("Hallo, ich bin dein Taschenrechner !")
-#definiere die erste variable die der user eingeben kann
-x = 0
-#die zweite variable
-y = 0
 #ergebnis und die rechnung speichern in einer liste
 Ergebnisse = []
 #sollange True führe die schleife aus
 again = True
 
 while again == True:
+#definiere die erste variable die der user eingeben kann
+#die zweite variable
 # frage den user nach den variablen und den operator
     x = input("Was ist deine erste Zahl: ")
     op = input("Was ist dein operator: ")
